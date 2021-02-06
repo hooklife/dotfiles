@@ -1,9 +1,9 @@
 [hub]
   protocol = https
 [user]
-  name = Amo Wu
-  email = amo260@gmail.com
-  signingkey = E77D0CB6
+  name = hooklife
+  email = miaogaopeng123@gmail.com
+  signingkey = 8AD36669F4772B0A
 [credential]
   helper = osxkeychain
 [color]
@@ -43,3 +43,7 @@
   required = true
 [commit]
   gpgsign = true
+[http "https://github.com"]
+	proxy = socks5://127.0.0.1:1081
+[gpg]
+	program = gpg
