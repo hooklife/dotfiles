@@ -1,0 +1,16 @@
+syntax on
+filetype indent on
+set nocompatible
+set ai
+set mouse=a
+set incsearch
+set hlsearch
+set confirm
+set number
+set ignorecase
+set smartcase
+set wildmenu
+set wildmode=list:longest,full
+
+" Wrap gitcommit file types at the appropriate length
+filetype indent plugin on
