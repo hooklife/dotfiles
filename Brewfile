@@ -56,7 +56,7 @@ brew "http-server"
 brew "svn" # download fonts
 
 
-cask "clion"
+# cask "clion"
 cask "dingtalk"
 cask "discord"
 
@@ -68,9 +68,11 @@ cask 'font-inter'
 cask 'font-jetbrains-mono'
 
 
-cask "google-chrome"
+# cask "google-chrome"
+cask "brave-browser"
 cask "iina", args: { appdir: "/Applications" }
 cask "insomnia"
+# cask "postman"
 cask "keka", args: { appdir: "/Applications" }
 cask "lens"
 cask "qlcolorcode", args: { appdir: "/Applications" }
@@ -83,7 +85,6 @@ cask "tencent-meeting"
 cask "termius"
 cask "typora"
 cask "visual-studio-code", args: { appdir: "/Applications" }
-cask "vlc", args: { appdir: "/Applications" }
 cask "webstorm"
 cask "phpstorm"
 cask 'docker'
@@ -96,4 +97,5 @@ cask 'spotify'
 cask 'neteasemusic'
 cask 'wechat'
 cask 'bitwarden'
-cask 'v2rayu'
+cask 'clashx'
+
