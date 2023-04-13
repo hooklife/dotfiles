@@ -103,7 +103,7 @@ sudo systemsetup -setcomputersleep Off > /dev/null
 # 0: Disable hibernation (speeds up entering sleep mode)
 # 3: Copy RAM to disk so the system state can still be restored in case of a
 #    power failure.
-sudo pmset -a hibernatemode 0
+sudo pmset -a hibernatemode 3
 
 # # Remove the sleep image file to save disk space
 # sudo rm /private/var/vm/sleepimage
